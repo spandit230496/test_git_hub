@@ -9,7 +9,8 @@
   "amended_from",
   "first_name",
   "employee",
-  "phone_number"
+  "phone_number",
+  "address"
  ],
  "fields": [
   {
@@ -43,13 +44,18 @@
    "fieldtype": "Data",
    "label": "Phone Number",
    "read_only": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-09-27 20:56:36.559480",
+ "modified": "2025-10-24 15:34:42.746750",
  "modified_by": "Administrator",
  "module": "Custom App",
  "name": "Employee Table",
