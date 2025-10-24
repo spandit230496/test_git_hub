@@ -61,7 +61,8 @@
    "role": "System Manager",
    "share": 1,
    "submit": 1,
-   "write": 1
+   "write": 1,
+    "set_user_permissions": 1
   }
  ],
  "row_format": "Dynamic",
@@ -69,3 +70,4 @@
  "sort_order": "DESC",
  "states": []
 }
+
