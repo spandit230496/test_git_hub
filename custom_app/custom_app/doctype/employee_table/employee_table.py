@@ -6,4 +6,5 @@ from frappe.model.document import Document
 from abc import ABC, abstractmethod
 
 class EmployeeTable(Document):
-	pass
+	def validate(self):
+		pass		
