@@ -8,9 +8,9 @@
   "section_break_hltc",
   "amended_from",
   "first_name",
+  "last_name",
   "employee",
-  "phone_number",
-  "address"
+  "phone_number"
  ],
  "fields": [
   {
@@ -46,16 +46,16 @@
    "read_only": 1
   },
   {
-   "fieldname": "address",
-   "fieldtype": "Small Text",
-   "label": "Address"
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-10-24 15:34:42.746750",
+ "modified": "2025-10-24 15:44:23.851587",
  "modified_by": "Administrator",
  "module": "Custom App",
  "name": "Employee Table",
